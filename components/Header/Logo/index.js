@@ -8,10 +8,7 @@ export default function Logo() {
     <div className={styles.logo}>
       <Link href='/'>
         <a>
-          <h1>
-            <b>{meta.TITLE}</b>
-            {/* TODO: optional <small>{meta.TAG}</small> */}
-          </h1>
+          <h1>{meta.TITLE}</h1>
         </a>
       </Link>
     </div>

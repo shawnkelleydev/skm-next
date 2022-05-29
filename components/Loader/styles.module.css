@@ -9,7 +9,6 @@
   border-radius: 50%;
   content: '';
   display: flex;
-  /* TODO: set loader color if necessary */
   background: var(--color-accent);
   height: 6px;
   width: 6px;

@@ -3,18 +3,11 @@ const getYear = (epoc) => {
 }
 
 export const meta = {
-  // TODO: edit AUTHOR
-  AUTHOR: 'author',
+  AUTHOR: 'Shawn Kelley',
   CURRENT_YEAR: getYear(new Date()),
-  // TODO: edit DESCRIPTION
-  DESCRIPTION: 'description',
-  // TODO: edit KEYWORDS
-  KEYWORDS: 'keyword1, keyword2, keyword3',
-  // TODO: edit/remove TAG
-  TAG: 'tag',
-  // TODO: edit TITLE
-  TITLE: 'title',
+  DESCRIPTION:
+    'The digital home of musician Shawn Kelley, composer of Urban Suite for Tuba Quartet.',
+  KEYWORDS:
+    'shawn, kelley, kelly, sean, shaun, tuba, quartet, composer, musician',
+  TITLE: 'Shawn Kelley',
 }
-
-// TODO: edit pages && change page folder names to match
-export const pages = ['page1', 'page2', 'page3']
