@@ -1,17 +1,25 @@
+import Banner from 'components/Banner'
+import Performances from 'components/Performances'
+import Portfolio from 'components/Portfolio'
+import Contact from 'components/Contact'
+
 import styles from './styles.module.css'
 
 export default function Home() {
   return (
     <div className={styles.home}>
-      <h2>home</h2>
+      <Banner />
+      <Performances />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
 
 // <hoc><component /></hoc>
 
-// <welcome />
-// <about />
-// <performed@ />
-// <portfolio />
-// <contact />
+// <Banner />
+// <FAQ />
+// <Performances />
+// <Portfolio />
+// <Contact />

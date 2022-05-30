@@ -1,0 +1,9 @@
+.strip {
+  display: flex;
+  justify-content: center;
+}
+
+.strip > div {
+  flex: 1;
+  max-width: 1048px;
+}
