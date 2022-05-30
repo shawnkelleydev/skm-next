@@ -8,8 +8,9 @@ export default function Banner() {
   return (
     <Strip>
       <div className={styles.banner}>
-        <About />
-        <BannerPic />
+        <BannerPic>
+          <About />
+        </BannerPic>
       </div>
     </Strip>
   )

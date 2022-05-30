@@ -1,10 +1,11 @@
 .performances {
   background: var(--color-primary);
+  padding: 2rem 0;
 }
 
 .performances h2 {
-  text-align: center;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .performances ul {
@@ -15,7 +16,7 @@
 
 .performances li {
   transition: 0.2s ease;
-  padding: 8px;
+  padding: 16px;
 }
 
 .performances li:hover {

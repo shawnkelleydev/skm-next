@@ -1,1 +1,21 @@
+.banner-pic {
+  max-height: 90vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
 
+.banner-pic article {
+  background: var(--color-primary);
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 40vw;
+}
+
+@media (max-width: 500px) {
+  .banner-pic article {
+    position: static;
+    width: 100%;
+  }
+}
