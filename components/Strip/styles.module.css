@@ -6,7 +6,6 @@
 
 .container {
   flex: 1;
-  margin: 48px 0;
 }
 
 .container[data-width='narrow'] {

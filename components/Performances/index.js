@@ -1,11 +1,20 @@
+import { institutions } from 'utils/constants/data'
+
 import Strip from 'components/Strip'
+
 import styles from './styles.module.css'
 
 export default function Performances() {
+  console.log(institutions)
   return (
     <Strip>
       <div className={styles.performances}>
         <h2>Performances</h2>
+        <ul>
+          {institutions.map((institution, index) => (
+            <li key={index}>{institution}</li>
+          ))}
+        </ul>
       </div>
     </Strip>
   )
