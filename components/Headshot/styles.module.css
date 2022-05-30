@@ -3,4 +3,9 @@
   display: flex;
   max-width: 300px;
   overflow: hidden;
+  transition: 0.2s ease;
+}
+
+.headshot:hover {
+  transform: scale(0.95);
 }
