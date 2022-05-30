@@ -1,7 +1,7 @@
 .logo {
   color: #fff;
-
-  margin: 8px 0 4px;
+  font-size: clamp(2rem, 3vw, 4rem);
+  margin: 12px 0 6px;
   transition: 0.2s ease;
 }
 

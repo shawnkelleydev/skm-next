@@ -13,8 +13,16 @@
   width: 40vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  .banner-pic {
+    max-height: none;
+  }
+
   .banner-pic article {
+    background: none;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
     position: static;
     width: 100%;
   }
