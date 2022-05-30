@@ -1,15 +1,15 @@
 import About from 'components/About'
-import Headshot from 'components/Headshot'
+import BannerPic from 'components/BannerPic'
 import Strip from 'components/Strip'
 
 import styles from './styles.module.css'
 
 export default function Banner() {
   return (
-    <Strip width='narrow'>
+    <Strip>
       <div className={styles.banner}>
-        <Headshot />
         <About />
+        <BannerPic />
       </div>
     </Strip>
   )
