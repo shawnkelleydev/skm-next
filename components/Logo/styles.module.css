@@ -1,4 +1,9 @@
 .logo {
+  color: #fff;
   font-weight: 300;
   margin: 8px 0 4px;
+}
+
+.logo span:last-child {
+  color: var(--color-accent);
 }

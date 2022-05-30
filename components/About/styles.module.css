@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about h2,
+.about p {
+  font-weight: 300;
+}

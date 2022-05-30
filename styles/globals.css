@@ -6,13 +6,21 @@
 }
 
 :root {
-  --color-primary: #111;
-  --color-secondary: rgb(138, 22, 22);
+  --color-primary: #222;
+  --color-secondary: rgb(255, 186, 125);
   --color-accent: rgb(0, 242, 255);
 }
 
 h1 {
   margin: 0;
+}
+
+h2 {
+  color: var(--color-accent);
+}
+
+h3 {
+  color: var(--color-secondary);
 }
 
 a {

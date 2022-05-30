@@ -1,9 +1,18 @@
 .strip {
+  color: #fff;
   display: flex;
   justify-content: center;
 }
 
-.strip > div {
+.container {
   flex: 1;
-  max-width: 1048px;
+  margin: 48px 0;
+}
+
+.container[data-width='narrow'] {
+  max-width: 600px;
+}
+
+.container[data-width='wide'] {
+  max-width: 1200px;
 }

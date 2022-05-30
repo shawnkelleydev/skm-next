@@ -1,11 +1,6 @@
 .header {
   background: var(--color-primary);
+  box-shadow: 0 0 8px #111;
   display: flex;
   justify-content: center;
-}
-
-.header h1,
-.header small,
-.header a {
-  color: #fff;
 }
