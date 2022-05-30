@@ -1,0 +1,10 @@
+.home {
+  background: tomato;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.home h2 {
+  background: lime;
+}

@@ -7,3 +7,11 @@ export default function Home() {
     </div>
   )
 }
+
+// <hoc><component /></hoc>
+
+// <welcome />
+// <about />
+// <performed@ />
+// <portfolio />
+// <contact />

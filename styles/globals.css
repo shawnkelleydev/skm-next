@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 :root {
   --color-primary: #111;
-  --color-secondary: #eee;
-  --color-accent: rgb(144, 103, 26);
+  --color-secondary: rgb(138, 22, 22);
+  --color-accent: rgb(0, 242, 255);
 }
 
 h1 {
