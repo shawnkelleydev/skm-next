@@ -91,6 +91,7 @@ export const pieces = [
   {
     id: 'urban-suite',
     title: 'urban suite',
+    published: true,
     img: 'https://images-na.ssl-images-amazon.com/images/I/413g0ycJ9eL._SY344_BO1,204,203,200_.jpg',
     publisher: { name: 'cimarron music', year: 2009 },
     ensembleType: 'tuba quartet',
@@ -115,11 +116,12 @@ export const pieces = [
     programNotes: [
       '*Urban* *Suite* is a story-celebration of life pursued with electric curiosity and restless uncertainty.',
     ],
-    externalBuyUrl: 'https://www.cimarronmusic.com/urban-suite-8504',
+    purchaseUrl: 'https://www.cimarronmusic.com/urban-suite-8504',
   },
   {
     id: 'an-off-day',
     title: 'an off day',
+    published: true,
     img: 'https://www.cimarronmusic.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/c/m/cm5016cover_2.png',
     publisher: { name: 'cimarron music', year: 2021 },
     ensembleType: 'tuba quartet',
@@ -127,11 +129,12 @@ export const pieces = [
     duration: 8,
     difficulty: 'advanced',
     completionYear: 2020,
-    externalBuyUrl: 'https://www.cimarronmusic.com/anoffday',
+    purchaseUrl: 'https://www.cimarronmusic.com/anoffday',
   },
   {
     id: 'home-suite-home',
     title: 'home suite home',
+    published: true,
     img: 'https://www.lowbrassmusic.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/c/m/cm5013cover_2.png',
     publisher: { name: 'cimarron music', year: 2021 },
     ensembleType: 'tuba quartet',
@@ -139,6 +142,6 @@ export const pieces = [
     duration: 12,
     difficulty: 'advanced',
     completionYear: 2020,
-    externalBuyUrl: 'https://www.cimarronmusic.com/homesuitehome',
+    purchaseUrl: 'https://www.cimarronmusic.com/homesuitehome',
   },
 ]

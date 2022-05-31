@@ -5,21 +5,12 @@
   width: 100%;
 }
 
-.banner-pic article {
-  background: var(--color-primary);
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  width: 40vw;
-}
-
 @media (max-width: 768px) {
   .banner-pic {
     max-height: none;
   }
 
   .banner-pic article {
-    background: none;
     display: flex;
     height: 100vh;
     justify-content: center;

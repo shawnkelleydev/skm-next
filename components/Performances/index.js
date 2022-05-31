@@ -5,7 +5,6 @@ import Strip from 'components/Strip'
 import styles from './styles.module.css'
 
 export default function Performances() {
-  console.log(institutions)
   return (
     <Strip>
       <div className={styles.performances}>

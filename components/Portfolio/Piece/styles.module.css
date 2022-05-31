@@ -1,0 +1,22 @@
+.piece {
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.piece h3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.piece h3 > cite {
+  text-transform: uppercase;
+}
+
+.piece small {
+  color: #ccc;
+  font-size: 1rem;
+}

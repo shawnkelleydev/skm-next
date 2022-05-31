@@ -1,0 +1,14 @@
+.action {
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.action:hover {
+  background: var(--color-accent);
+  color: #000;
+}

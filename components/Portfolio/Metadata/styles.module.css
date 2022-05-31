@@ -1,0 +1,15 @@
+.metadata th {
+  color: #ccc;
+}
+
+.metadata td {
+  padding-left: 2rem;
+}
+
+.metadata ul {
+  list-style: disc;
+}
+
+.caps {
+  text-transform: capitalize;
+}
