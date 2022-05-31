@@ -1,5 +1,9 @@
 .portfolio {
   background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   padding: 2rem;
 }
 

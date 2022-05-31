@@ -1,0 +1,17 @@
+.input, .textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input, .textarea textarea {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.textarea textarea {
+  height: 200px;
+}

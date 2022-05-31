@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './styles.module.css'
 
 export default function Action({ children, href, ...rest }) {
-  if (href[0] !== '/')
+  if (href[0] !== '/' && href[0] !== '#')
     return (
       <a
         {...rest}

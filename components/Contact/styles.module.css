@@ -1,0 +1,17 @@
+.contact {
+  align-items: center;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.contact h2 {
+  margin: 0 0 3rem;
+}
+
+.contact span {
+  color: var(--color-accent);
+}

@@ -1,6 +1,10 @@
 .performances {
-  background: var(--color-primary);
-  padding: 2rem 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
 }
 
 .performances h2 {

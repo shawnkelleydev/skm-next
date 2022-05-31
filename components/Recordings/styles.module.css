@@ -1,5 +1,9 @@
 .recordings {
-  background: var(--color-secondary);
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   padding: 2rem;
 }
 

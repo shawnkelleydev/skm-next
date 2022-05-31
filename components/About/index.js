@@ -12,7 +12,7 @@ export default function About() {
         Kelley is the creator of <cite>Urban Suite for Tuba Quartet</cite>.
       </p>
       <div>
-        <Action href='/'>contact shawn</Action>
+        <Action href='#contact'>contact shawn</Action>
       </div>
     </article>
   )
