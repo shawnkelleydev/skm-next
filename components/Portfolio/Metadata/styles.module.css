@@ -1,9 +1,13 @@
-.metadata th {
-  color: #ccc;
+.metadata summary {
+  cursor: pointer;
 }
 
-.metadata td {
-  padding-left: 2rem;
+.metadata table {
+  border-spacing: .5rem;
+}
+
+.metadata th {
+  color: #ccc;
 }
 
 .metadata ul {

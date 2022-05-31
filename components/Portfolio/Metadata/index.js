@@ -1,6 +1,7 @@
 import styles from './styles.module.css'
 
 export default function Metadata({ piece }) {
+  console.log(piece)
   return (
     <details className={styles.metadata}>
       <summary>Info</summary>
@@ -22,18 +23,6 @@ export default function Metadata({ piece }) {
             <th>Difficulty</th>
             <td>{piece.difficulty}</td>
           </tr>
-          {piece.highlights && (
-            <tr>
-              <th>Highlights</th>
-              <td>
-                <ul>
-                  {piece.highlights.map((highlight, index) => (
-                    <li key={index}>{highlight}</li>
-                  ))}
-                </ul>
-              </td>
-            </tr>
-          )}
         </tbody>
       </table>
     </details>
