@@ -2,6 +2,7 @@ import { pieces } from 'utils/constants/data'
 
 import Strip from 'components/Strip'
 import Piece from './Piece'
+
 import styles from './styles.module.css'
 
 export default function Portfolio() {

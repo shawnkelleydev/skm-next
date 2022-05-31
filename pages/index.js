@@ -1,7 +1,8 @@
 import Banner from 'components/Banner'
+import Contact from 'components/Contact'
 import Performances from 'components/Performances'
 import Portfolio from 'components/Portfolio'
-import Contact from 'components/Contact'
+import Recordings from 'components/Recordings'
 
 import styles from './styles.module.css'
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <Performances />
       <Portfolio />
+      <Recordings />
       <Contact />
     </div>
   )

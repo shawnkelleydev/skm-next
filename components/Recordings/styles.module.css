@@ -1,14 +1,14 @@
-.portfolio {
+.recordings {
   background: var(--color-secondary);
   padding: 2rem;
 }
 
-.portfolio h2 {
+.recordings h2 {
   text-align: center;
   margin: 2rem 0 3rem;
 }
 
-.portfolio > ul {
+.recordings > ul {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -1,7 +1,6 @@
 import styles from './styles.module.css'
 
 export default function Metadata({ piece }) {
-  console.log(piece)
   return (
     <details className={styles.metadata}>
       <summary>Info</summary>
