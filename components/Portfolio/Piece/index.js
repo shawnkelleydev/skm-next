@@ -11,10 +11,7 @@ export default function Piece({ piece }) {
         <small>{piece.ensembleType}</small>
       </h3>
       <Metadata piece={piece} />
-      <Action
-        text='buy now'
-        url={piece.purchaseUrl}
-      />
+      <Action href={piece.purchaseUrl}>buy now</Action>
     </li>
   )
 }

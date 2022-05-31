@@ -1,3 +1,4 @@
+import Action from 'components/Action'
 import styles from './styles.module.css'
 
 export default function About() {
@@ -11,7 +12,7 @@ export default function About() {
         Kelley is the creator of <cite>Urban Suite for Tuba Quartet</cite>.
       </p>
       <div>
-        <button>contact shawn</button>
+        <Action href='/'>contact shawn</Action>
       </div>
     </article>
   )

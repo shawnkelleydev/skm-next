@@ -4,11 +4,28 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
+  position: relative;
   text-transform: uppercase;
   transition: 0.2s ease;
+  z-index: 1;
+}
+
+.action::before {
+  background: var(--color-accent);
+  bottom: 0;
+  content: '';
+  height: 0;
+  left: 0;
+  position: absolute;
+  transition: .3s ease;
+  width: 100%;
+  z-index: -1;
 }
 
 .action:hover {
-  background: var(--color-accent);
   color: #000;
+}
+
+.action:hover::before {
+  height: 100%;
 }

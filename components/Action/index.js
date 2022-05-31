@@ -1,14 +1,26 @@
+import Link from 'next/link'
 import styles from './styles.module.css'
 
-export default function Action({ text, url }) {
+export default function Action({ children, href, ...rest }) {
+  if (href[0] !== '/')
+    return (
+      <a
+        {...rest}
+        className={styles.action}
+        href={href}
+        rel='noopener noreferrer'
+        target='_blank'
+      >
+        {children}
+      </a>
+    )
+
   return (
-    <a
-      className={styles.action}
-      href={url}
-      target='_blank'
-      rel='noopener noreferrer'
+    <Link
+      {...rest}
+      href={href}
     >
-      {text}
-    </a>
+      <a className={styles.action}>{children}</a>
+    </Link>
   )
 }
