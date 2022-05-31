@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-export default function Input({ id, type }) {
+export default function Input({ id, setValue, type, value }) {
   if (type === 'textarea') {
     return (
       <label
@@ -11,6 +11,9 @@ export default function Input({ id, type }) {
         <textarea
           id={id}
           name={id}
+          onChange={(e) => setValue(e.target.value)}
+          required
+          value={value}
         />
       </label>
     )
@@ -26,6 +29,9 @@ export default function Input({ id, type }) {
         type={type}
         id={id}
         name={id}
+        onChange={(e) => setValue(e.target.value)}
+        required
+        value={value}
       />
     </label>
   )
